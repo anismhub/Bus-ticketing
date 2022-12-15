@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="warna1">#C0CAAD</color>
+    <color name="warna2">#9DA9A0</color>
+    <color name="warna3">#654C4F</color>
+    <color name="warna4">#B26E63</color>
+    <color name="warna5">#CEC075</color>
+    <color name="warna6">#D7F9F1</color>
+    <color name="warna7">#7AA095</color>
+    <color name="warna8">#40531B</color>
+    <color name="warna9">#618B4A</color>
+    <color name="warna10">#AFBC88</color>
+    <color name="warna11">#818D92</color>
+    <color name="warna12">#586A6A</color>
+    <color name="warna13">#B9A394</color>
+    <color name="warna14">#D4C5C7</color>
+    <color name="warna15">#DAD4EF</color>
+    <color name="warna16">#4B5043</color>
+    <color name="warna17">#4B5043</color>
+    <color name="warna18">#9BC4BC</color>
+    <color name="warna19">#D3FFE9</color>
+    <color name="warna20">#8DDBE0</color>
+    <color name="warna21">#22A39F</color>
+</resources>

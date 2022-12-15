@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EFE0"
+    android:backgroundTint="#F3EFE0"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <ImageView
+            android:id="@+id/loBookNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            app:srcCompat="@drawable/booknow2" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loBookNow"
+            android:layout_marginTop="50dp"
+            android:text="Login"
+            android:textColor="@color/warna21"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/warna5"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:hintTextColor="@color/warna5">
+
+            <EditText
+                android:id="@+id/edEmail"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/tvEmail"
+                android:background="@drawable/ed_border"
+                android:hint="Enter your Email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="25dp"
+                android:textColor="@color/warna2"
+                android:textColorHint="@color/warna5"
+                android:textSize="13sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tvPassword"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@id/edEmail"-->
+        <!--            android:layout_marginStart="35dp"-->
+        <!--            android:layout_marginTop="30dp"-->
+        <!--            android:text="Password"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/warna5"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:hintTextColor="@color/warna5"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/warna5">
+
+            <EditText
+                android:id="@+id/edPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/ed_border"
+                android:hint="Enter your Password"
+                android:inputType="textPassword"
+                android:paddingStart="25dp"
+                android:textColor="@color/warna2"
+                android:textSize="13sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_below="@id/edPassword"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/warna21"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/warna6"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imOr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/or" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/imOr"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/warna5"
+            android:text="SignUp"
+            android:textAllCaps="false"
+            android:textColor="@color/warna21"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\activity_choose_seat.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\activity_choose_seat.xml"
+    },
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\result_layout.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\result_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\activity_home_input.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\activity_home_input.xml"
+    },
+    {
+        "merged": "com.tinne.finalproject4.app-mergeDebugResources-34:/layout/activity_choose_seat.xml",
+        "source": "com.tinne.finalproject4.app-main-37:/layout/activity_choose_seat.xml"
+    },
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\activity_detail_result.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\activity_detail_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-mergeDebugResources-34:\\layout\\activity_result_home.xml",
+        "source": "C:\\Users\\putri\\.gradle\\daemon\\7.4\\com.tinne.finalproject4.app-main-37:\\layout\\activity_result_home.xml"
+    }
+]
